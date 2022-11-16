@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WidgetsTextView</string>
+    <string name="str01">화면에 보일 문자열 01</string>
+    <string name="str02">화면에 보일 문자열 02</string>
+    <string name="str03">첫번째 줄\n두번째 줄\n세번째 줄\n네번째 줄\n</string>
+    <!-- 개행문자(\n)을 이용하면 여러 줄의 문자열을 등록할 수 있음 -->
+    <string name="str04">1번째 줄
+            2번째 줄
+        3번째 줄</string>
+    <!-- 개행문자(\n)없이 직접 enter로 줄을 구분할 수 있음(띄어쓰기도 포함됨) -->
+    <!-- name 속성은 중복될 수 없으며, 내부의 문자열은 중복되어도 됨 -->
+    <!-- 텍스트뷰에서 보일 문자열을 'text' 속성에서 입력해도 되지만 권장하지 않고,
+     보통은 strings.xml에 보여줄 문자열을 미리 등록해 놓고 사용함 -->
+</resources>
